@@ -32,7 +32,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 *Books on fuzzing*
 - [Fuzzing: Brute Force Vulnerability Discovery](https://www.amazon.com/Fuzzing-Brute-Force-Vulnerability-Discovery/dp/0321446119) by Michael Sutton, Adam Greene, Pedram Amini.
 
-- [Fuzzing for Software Security Testing and Quality Assurance ](https://www.amazon.com/Fuzzing-Software-Security-Assurance-Information/dp/1596932147) by Ari Takanen, Charles Miller, and Jared D Demott.
+- [Fuzzing for Software Security Testing and Quality Assurance ](https://www.amazon.com/Fuzzing-Software-Security-Testing-Assurance/dp/1608078507) by Ari Takanen, Charles Miller, Jared D Demott and Atte Kettunen.
 
 - [Open Source Fuzzing Tools](https://www.amazon.com/Open-Source-Fuzzing-Tools-Rathaus/dp/1597491950) by by Gadi Evron and Noam Rathaus.
 
@@ -171,12 +171,17 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Fuzzing with AFL Workshop - a set of challenges on real vulnerabilities](https://github.com/ThalesIgnite/afl-training)
 
+[Fuzzing 101 - PHDays](https://github.com/RootUp/PHDays9)
+
 ##### libFuzzer Fuzzer related tutorials
 
 [libFuzzer Tutorial](https://github.com/google/fuzzer-test-suite/blob/master/tutorial/libFuzzerTutorial.md)
 
 [libFuzzer Workshop: "Modern fuzzing of C/C++ Projects"](https://github.com/Dor1s/libfuzzer-workshop)
 
+##### honggfuzz related tutorials
+
+[Double-Free RCE in VLC. A honggfuzz how-to](https://www.pentestpartners.com/security-blog/double-free-rce-in-vlc-a-honggfuzz-how-to/)
 
 ##### Spike Fuzzer related tutorials
 
@@ -194,6 +199,9 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Z3 - A guide](https://rise4fun.com/z3/tutorial/guide) - Getting Started with Z3: A Guide
 
+##### Building a Feedback Fuzzer (for educational purposes)
+
+[Building A Feedback Fuzzer](https://blog.fadyothman.com/tag/myfuzzer/) - by @fady_othman
 
 ## Tools
 
@@ -204,6 +212,10 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 *Fuzzers which help fuzzing in cloud environments.*
 
 [Cloudfuzzer](https://github.com/ouspg/cloudfuzzer) - Cloud fuzzing framework which makes it possible to easily run automated fuzz-testing in cloud environments.
+
+[ClusterFuzzer](https://google.github.io/clusterfuzz/) - ClusterFuzzer, scalable open source fuzzing infrastructure. It is used by Google for fuzzing Chrome Browser.
+
+[Fuzzit](https://fuzzit.dev) - Fuzzit, Continuous fuzzing as a service platform. Free for open source. used by various open-source projects (systemd, radare2) and close-source projects. To join oss program drop a line at oss@fuzzit.dev
 
 ### File Format Fuzzers
 
@@ -291,6 +303,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [go-fuzz](https://github.com/dvyukov/go-fuzz) - Coverage-guided testing of go packages.
 
+[FExM](https://github.com/fgsect/fexm) - Automated Large-Scale Fuzzing Framework
+
 ### Taint Analysis
 *How user input affects the execution*
 
@@ -370,6 +384,8 @@ PacketStorm - https://packetstormsecurity.com/files/tags/exploit/
 
 [Fuzzgoat](https://github.com/fuzzstati0n/fuzzgoat) - Vulnerable C program for testing fuzzers.
 
+[vulnserver](https://github.com/stephenbradshaw/vulnserver) - A vulnerable server for testing fuzzers.
+
 
 ##### Samples files for seeding during fuzzing:
 
@@ -381,6 +397,7 @@ https://files.fuzzing-project.org/
 
 [Fuzzer Test Suite](https://github.com/google/fuzzer-test-suite) - Set of tests for fuzzing engines. Includes different well-known bugs such as Heartbleed, c-ares $100K bug and others.
 
+[Fuzzing Corpus](https://github.com/strongcourage/fuzzing-corpus) - A corpus, including various file formats for fuzzing multiple targets in the fuzzing literature.
 
 ## Anti Fuzzing
 
