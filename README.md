@@ -22,6 +22,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
   + [Essential Tools](#essential-tools)
 - [Vulnerable Applications](#vulnerable-applications)
 - [Anti-Fuzzing](#anti-fuzzing)
+- [Directed-Fuzzing](#directed-fuzzing)
 - [Contributing](#contributing)
 
 
@@ -37,6 +38,8 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 - [Open Source Fuzzing Tools](https://www.amazon.com/Open-Source-Fuzzing-Tools-Rathaus/dp/1597491950) by by Gadi Evron and Noam Rathaus.
 
 - [Gray Hat Python](https://www.amazon.com/Gray-Hat-Python-Programming-Engineers/dp/1593271921) by Justin Seitz.
+
+- [The Fuzzing Book](https://www.fuzzingbook.org/) by Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, and Christian Holler.
 
 
 > **Note:** Chapter(s) in the following books are dedicated to fuzzing.
@@ -233,6 +236,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [TriforceAFL](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2016/june/project-triforce-run-afl-on-everything/) - A modified version of AFL that supports fuzzing for applications whose source code not available.
 
+[AFLGo](https://github.com/aflgo/aflgo) - Directed Greybox Fuzzing with AFL, to fuzz targeted locations of a program.
+
 [Peach Fuzzer](https://sourceforge.net/projects/peachfuzz/) - Framework which helps to create custom dumb and smart fuzzers.
 
 [MozPeach](https://github.com/MozillaSecurity/peach) - A fork of peach 2.7 by Mozilla Security.
@@ -274,6 +279,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 [Mutiny](https://github.com/Cisco-Talos/mutiny-fuzzer) - The Mutiny Fuzzing Framework is a network fuzzer that operates by replaying PCAPs through a mutational fuzzer.
 
 [Fuzzing For Worms](https://github.com/dobin/ffw) - A fuzzing framework for network servers.
+
+[AFL (w/ networking patch)](https://github.com/jdbirdwell/afl) - An unofficial american fuzzy lop capable of network fuzzing.
 
 ### Browser Fuzzing
 [BFuzz](https://github.com/RootUp/BFuzz) - An input based, browser fuzzing framework.
@@ -403,6 +410,13 @@ https://files.fuzzing-project.org/
 
 [Introduction to Anti-Fuzzing: A Defence In-Depth Aid](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2014/january/introduction-to-anti-fuzzing-a-defence-in-depth-aid/)
 
+[Fuzzification: Anti-Fuzzing Techniques](https://www.usenix.org/conference/usenixsecurity19/presentation/jung)
+
+[AntiFuzz: Impeding Fuzzing Audits of Binary Executables](https://www.usenix.org/conference/usenixsecurity19/presentation/guler)
+
+## Directed Fuzzing
+
+[Awesome Directed Fuzzing](https://github.com/strongcourage/awesome-directed-fuzzing): A curated list of awesome directed fuzzing research papers.
 
 ## Contributing
 
